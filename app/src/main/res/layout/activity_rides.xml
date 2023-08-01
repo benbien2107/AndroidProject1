@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        app:title="Ride Detail"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="37sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Testing"/>
+
+        <TextView
+            android:id="@+id/datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#514E4E"
+            tools:text = "2020/01/01, 12:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rectangle"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/circle_center"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:backgroundTintMode="screen"
+            android:contentDescription="circle drawable"
+            android:src="@drawable/baseline_circle_24"
+            android:tileMode="repeat" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/curr_location"
+            android:layout_toEndOf="@id/circle_center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="Current Location"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:layout_below="@id/curr_location"
+            android:layout_toEndOf="@id/circle_center"
+            android:textColor="#535050"
+            android:textSize="13sp"
+            android:text = "Sydney NSW 2020, Australia"
+            />
+
+    </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/imageview"
+            android:layout_toEndOf="@+id/imageview"
+            android:background="#DAD8D8"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/square_center"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="center"
+            android:backgroundTintMode="screen"
+            android:contentDescription="circle drawable"
+            android:src="@drawable/baseline_square_24"
+            android:tileMode="repeat" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/place"
+            android:layout_toEndOf="@id/square_center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="Four Season Hotel Sydney"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:layout_below="@id/place"
+            android:layout_toEndOf="@id/square_center"
+            android:textColor="#535050"
+            android:textSize="13sp"
+            android:text = "Sydney NSW 2020, Australia"
+            />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/carview"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            tools:text="image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/car_item"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@id/carview"
+            tools:text="Ford Everest\t"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicle_description"
+            android:text="Vehicle D15, Tan SUV"
+            android:layout_toEndOf="@id/carview"
+            android:layout_below="@id/car_item"
+            />
+        <ImageButton
+            android:id="@+id/more1_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_more_vert_24"
+            android:backgroundTintMode="screen"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/imageview"
+        android:layout_toEndOf="@+id/imageview"
+        android:background="#DAD8D8"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        >
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/pic_profile"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            tools:text="image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/driver"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@id/pic_profile"
+            android:text="Driver"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_description"
+            android:text="Huu Phuc Bien, Delta 1"
+            android:layout_toEndOf="@id/pic_profile"
+            android:layout_below="@id/driver"
+            />
+        <ImageButton
+            android:id="@+id/more2_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_more_vert_24"
+            android:backgroundTintMode="screen"
+            />
+    </RelativeLayout>
+</LinearLayout>

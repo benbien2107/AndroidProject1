@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="SEWindowBGColor">#FFFFFF</color>
+    <color name="redorange">#DD3229</color>
+    <color name="lightgrey">#d9d9d9</color>
+    <color name="black">#000000</color>colors.xml
+    <color name="timberwolf">#DBD7D2</color>
+    <color name="gray">#95918C</color>
+    <color name="gray_map">#666666</color>
+    <color name="transgray">#8095918C</color>
+    <color name="faketrans">#333231</color>
+    <color name="sent">#FEF4D2</color>
+    <color name="header">#827E77</color>
+    <color name="trans75">#C0000000</color>
+    <color name="trans50">#80000000</color>
+    <color name="trans65">#95000000</color>
+    <color name="trans25">#40000000</color>
+    <color name="transwhite">#c0ffffff</color>
+    <color name="weather_back">#1F4253</color>
+    <color name="weather_gold">#F3B331</color>
+    <color name="weather_conditions">#CCF3FF</color>
+    <!--<color name="lightgrey">#80d9d9d9</color>-->
+    <!-- New color theme -->
+    <color name="actionBarBackColor">#237FB6</color>
+    <color name="mainMenuBackColor">#4093D8</color>
+    <color name="mainMenuTextColor">#FFFFFF</color>
+    <color name="tabTitleBackColor">#DBE3E6</color>
+    <color name="tabTitleTextColor">#2E92C5</color>
+    <color name="tabIndicatorColor">#F19C25</color>
+    <color name="tabContentBackColor">#E7F1F6</color>
+    <color name="tabStaticTextColor">#040505</color>
+    <color name="tabClickableTextColor">#3CA8DD</color>
+    <color name="photoRingColor">#237FB6</color>
+    <color name="callButtonBackColor">#FFFFFF</color>
+    <color name="callButtonRingColor">#F19C25</color>
+    <color name="callButtonTextColor">#040505</color>
+    <color name="panicButtonBackColor">#FFFFFF</color>
+    <color name="panicButtonRingColor">#DC302A</color>
+    <color name="panicButtonTextColor">#040505</color>
+    <color name="prefsSectionBackColor">#3598D9</color>
+    <color name="prefsHeaderBackColor">#2A80B8</color>
+    <color name="signupIndicatorColor">#F29B1A</color>
+
+    <color name="colorPrimary">#448aff</color>
+    <color name="colorPrimaryDark">#2979FF</color>
+    <color name="colorAccent">#448aff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="aa">#89000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="uvv_gray">#969696</color>
+
+    <color name="uvv_black">#ff000000</color>
+
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+
+    <color name="uvv_titlebar_bg">#7f000000</color>
+
+    <color name="color_holo_dark">#FFFFFF</color>
+
+    <color name="color_pink_dark">#ff6781</color>
+    <color name="color_pink_light">#50ffc0cb</color>
+    <color name="color_orange_dark">#ff6600</color>
+    <color name="color_orange_light">#50fed9bf</color>
+    <color name="color_yellow_dark">#ffbf00</color>
+    <color name="color_yellow_light">#50fdef42</color>
+    <color name="color_green_light">#5077c897</color>
+    <color name="color_green_dark">#49b675</color>
+
+    <!--    POI color-->
+    <color name="Brand">#2A5CAA</color>
+    <color name="Brand12Opa">#522A5CAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Red">#F44336</color>
+    <color name="Pink">#FF4F9A</color>
+    <color name="Pink_2">#FF4F9A</color>
+    <color name="Purple">#7C4DFF</color>
+    <color name="DeepPurple">#673AB7</color>
+    <color name="Indigo">#5773FF</color>
+    <color name="Blue">#448AFF</color>
+    <color name="Blue38">#61448AFF</color>
+    <color name="LightBlue">#03A9F4</color>
+    <color name="Cyan">#00BCD4</color>
+    <color name="Teal">#3ACCE1</color>
+    <color name="Green">#4CAF50</color>
+    <color name="LightGreen">#8BC34A</color>
+    <color name="Lime">#AEEA00</color>
+    <color name="Yellow">#FFEB3B</color>
+    <color name="Amber">#FFC107</color>
+    <color name="Orange">#FF9800</color>
+    <color name="DeepOrange">#FF5722</color>
+    <color name="White">#FFFFFF</color>
+    <color name="LightGray">#E9ECF2</color>
+    <color name="LightGray50Opa">#80E9ECF2</color>
+    <color name="DarkGray">#454F63</color>
+    <color name="MediumGray">#78849E</color>
+    <color name="Black">#2A2E43</color>
+    <color name="MediumGray_50">#8078849E</color>
+    <color name="Red_Warm">#FF5252</color>
+    <color name="White_80">#CCFFFFFF</color>
+    <color name="White_20">#33FFFFFF</color>
+    <color name="OverlayColor">#52000000</color>
+    <color name="Black_50">#80000000</color>
+    <color name="TrackGray">#61000000</color>
+    <color name="Hint_Color">#BBC1CE</color>
+    <color name="Magenta">#C840E9</color>
+    <color name="Black1">#2A2E43</color>
+
+    <!-- Track & Protect -->
+    <color name="mediumGray">#78849E</color>
+
+    <!-- Bottom Sheet map-->
+    <color name="mylocation_text">@color/Black</color>
+    <color name="otherlocation_address">@color/mediumGray</color>
+    <color name="subTextColorMylocation">@color/Black</color>
+    <color name="preferenece_setting_title">@color/MediumGray</color>
+    <color name="preferenece_setting_name">@color/Black</color>
+    <color name="inactive_radio_button_color">@color/MediumGray</color>
+
+    <!-- Onboard-->
+    <color name="onboarding_large_ring">#0DFFFFFF</color>
+    <color name="onboarding_medium_ring">#14FFFFFF</color>
+    <color name="onboarding_small_ring">#1AFFFFFF</color>
+    <color name="onboarding_text">@color/White</color>
+    <color name="onboarding_dot_active">@color/Brand</color>
+    <color name="onboarding_dot_unactive">#E6ECF5</color>
+
+    <!-- Navigation Drawer-->
+    <color name="background_navigation_drawer">@color/white</color>
+    <color name="name_color">@color/Black</color>
+    <color name="background_nav_item">@color/mediumGray</color>
+    <color name="username_color">@color/mediumGray</color>
+    <color name="background_item_color">#E1E9F3</color>
+    <!-- Navigation -->
+    <color name="background_icon_bottom_navigation_unactive">@color/mediumGray</color>
+    <color name="background_navigation">@color/Brand</color>
+    <!-- dark mode colors -->
+    <color name="black48">#303030</color>
+    <color name="white12">#1FFFFFFF</color>
+    <color name="white30">#4DFFFFFF</color>
+    <color name="white70">#B3FFFFFF</color>
+    <color name="white38">#61FFFFFF</color>
+    <color name="black33">#212121</color>
+    <color name="black20">#22000000</color>
+    <color name="black30">#4D000000</color>
+
+    <!-- 360 Colllect colors-->
+    <color name="Black70">#B32A2E43</color>
+    <!-- action chip-->
+    <color name="action_chip_background">@color/white</color>
+    <color name="action_chip_text">@color/DarkGray</color>
+
+    <!-- control switcher -->
+    <color name="control_switcher_text">@color/DarkGray</color>
+    <color name="control_switcher_divider">@color/LightGray</color>
+    <color name="control_switcher_inactive_subsite">@color/DarkGray</color>
+    <color name="control_switcher_active_subsite">@color/Brand</color>
+    <color name="control_switcher_active_background">@color/LightGray50Opa</color>
+
+    <!-- form fields -->
+    <color name="form_field_storke">@color/Brand</color>
+    <color name="form_field_hint_text">@color/MediumGray_50</color>
+    <color name="form_field_hint_text_medium_gray">@color/MediumGray</color>
+    <color name="form_field_hint_text_helper">@color/Brand</color>
+    <color name="form_field_hint_text_title">@color/Brand</color>
+    <color name="form_field_input_text">@color/Black</color>
+    <color name="form_field_cursor">@color/Brand</color>
+    <color name="form_field_message_input_text">@color/DarkGray</color>
+    <color name="form_field_message_storke">@color/LightGray</color>
+    <color name="form_field_message_background">@color/white</color>
+    <color name="form_field_share_live_link_hint_text">@color/MediumGray</color>
+    <color name="form_field_search_storke">@color/LightGray</color>
+    <color name="form_field_search_location">@color/DarkGray</color>
+    <color name="form_field_search_location_icon">@color/MediumGray</color>
+    <color name="form_field_hint_text_light_gray">@color/LightGray</color>
+
+    <!-- bottomsheet -->
+    <color name="bottom_sheet_background">@color/white</color>
+    <color name="bottom_sheet_title">@color/DarkGray</color>
+    <color name="bottom_sheet_stroke_button">@color/LightGray</color>
+    <color name="bottom_sheet_choosser_text">@color/Brand</color>
+    <color name="bottom_sheet_check_in_text">@color/Brand</color>
+    <color name="bottom_sheet_check_in_button_background">@color/Brand</color>
+    <color name="bottom_sheet_check_in_button_text">@color/white</color>
+    <color name="bottom_sheet_tool_bar_divider">@color/LightGray</color>
+    <color name="bottom_sheet_action_menu">@color/Brand</color>
+    <color name="bottom_sheet_location_name">@color/Black</color>
+    <color name="bottom_sheet_address">@color/MediumGray</color>
+    <color name="bottom_sheet_map_tiles_text">@color/DarkGray</color>
+    <color name="bottom_sheet_text">@color/MediumGray</color>
+    <color name="bottom_sheet_title_file_option">@color/Black</color>
+
+    <!-- SOS -->
+    <color name="sos_reason_text">@color/Black</color>
+    <color name="sos_banner_title">@color/MediumGray</color>
+    <color name="sos_banner_background">@color/white</color>
+    <color name="sos_banner_cancel_title">@color/DarkGray</color>
+    <color name="sos_banner_cancel_body">@color/MediumGray</color>
+
+    <!-- get started -->
+    <color name="getstarted_background">@color/white</color>
+    <color name="getstarted_title_text">@color/Black</color>
+    <color name="getstarted_body_text">@color/MediumGray</color>
+    <color name="getstarted_button_text">@color/white</color>
+    <color name="getstarted_button_background">@color/Brand</color>
+
+    <!-- FAB-->
+    <color name="fab_background">@color/white</color>
+    <color name="fab_tint">@color/Brand</color>
+    <color name="fab_on_move">@color/MediumGray</color>
+    <color name="device_label_background">#CCFFFFFF</color>
+
+    <!-- fragment -->
+    <color name="fragment_background">@color/white</color>
+    <color name="fragment_setting_background">@color/white</color>
+
+    <!-- status bar color -->
+    <color name="status_bar">@color/white</color>
+
+    <!-- radio button-->
+    <color name="radio_button_text">@color/Black</color>
+
+    <!-- divider -->
+    <color name="divider">@color/LightGray</color>
+
+    <!-- bottom navigation / drawer -->
+    <color name="navigation_background">@color/white</color>
+    <color name="navigation_drawer_background">@color/white</color>
+    <color name="navigation_user_avatar_background">@color/Brand</color>
+    <color name="navigation_user_avatar_text">@color/white</color>
+
+    <!-- settings -->
+    <color name="settings_text">@color/Black</color>
+    <color name="settings_text_1">@color/MediumGray</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#A6A6A6</color>
+
+    <!-- map -->
+    <color name="map_fab">@color/MediumGray</color>
+    <color name="map_my_location">@color/colorPrimary</color>
+
+    <!-- button -->
+    <color name="button_text">@color/white</color>
+    <color name="button_background">@color/Brand</color>
+    <color name="button_action">@color/Blue</color>
+    <color name="button_action_save">@color/Brand</color>
+    <color name="btn_save_text_color">@color/white</color>
+
+    <!-- pop up -->
+    <color name="pop_up_text">@color/DarkGray</color>
+    <color name="pop_up_title">@color/Black</color>
+    <color name="pop_up_button">@color/Blue</color>
+
+    <!-- two line -->
+    <color name="live_tracking_line_second">@color/MediumGray</color>
+
+    <!-- tool bar -->
+    <color name="tool_bar_background">@color/white</color>
+    <color name="tool_bar_title">@color/Black</color>
+    <color name="tool_bar_arrow">@color/MediumGray</color>
+    <color name="tool_bar_action_menu">@color/Brand</color>
+
+    <!-- help fragment -->
+    <color name="help_fragment_background">@color/white</color>
+    <color name="help_fragment_text">@color/Black</color>
+
+    <!-- chat -->
+    <color name="chat_user_group">@color/MediumGray</color>
+    <color name="chat_item_user_name">@color/Black</color>
+    <color name="chat_item_message">@color/MediumGray</color>
+    <color name="chat_item_time">@color/Black</color>
+    <color name="new_chat_message_background">@color/white</color>
+    <color name="new_chat_title_group">@color/Black</color>
+    <color name="chat_indicator">@color/Brand</color>
+    <color name="chat_user_avatar_background">@color/Brand</color>
+    <color name="chat_user_avatar_text">@color/white</color>
+    <color name="chat_input_text">@color/DarkGray</color>
+    <color name="chat_text_util">@color/MediumGray</color>
+    <color name="chat_search_form_background">@color/LightGray</color>
+    <color name="new_chat_search_form_background">@color/white</color>
+    <color name="chat_background">@color/white</color>
+    <color name="error_message">@color/DarkGray</color>
+    <color name="chat_badge_background">@color/Red</color>
+    <color name="chat_message_title">@color/Black</color>
+    <color name="chat_message_subtitle">@color/MediumGray</color>
+    <color name="chat_my_message_text">@color/white</color>
+    <color name="chat_my_message_box_background">@color/Blue</color>
+    <color name="chat_their_message_text">@color/DarkGray</color>
+    <color name="chat_their_message_box_background">@color/LightGray</color>
+    <color name="chat_their_name">@color/MediumGray</color>
+    <color name="chat_time">@color/MediumGray</color>
+    <color name="new_chat_chip_background">@color/MediumGray</color>
+    <color name="new_chat_chip_text">@color/black</color>
+    <color name="new_chat_chip_selected">@color/LightGray</color>
+    <color name="no_chat_title">@color/Black</color>
+    <color name="no_chat_message">@color/MediumGray</color>
+
+    <!-- progress bar -->
+    <color name="progress_bar_icon">@color/colorAccent</color>
+
+    <!-- splash -->
+    <color name="splash_screen_background">@color/white</color>
+<!--    <color name="splash_screen_background">@color/lightgrey</color>-->
+
+    <!-- dialog -->
+    <color name="dialog_background">@color/white</color>
+    <color name="dialog_title">@color/Black</color>
+
+    <!-- activity -->
+    <color name="activity_background">@color/white</color>
+
+    <!-- emergency contacts -->
+    <color name="emergency_contacts_label">@color/Black</color>
+    <color name="emergency_contacts_number">@color/MediumGray</color>
+    <color name="emergency_contacts_ic">@color/MediumGray</color>
+
+    <!-- notification -->
+    <color name="notification_text">@color/DarkGray</color>
+    <color name="notification_title">@color/Black</color>
+    <color name="notification_app_name">@color/Black</color>
+
+    <color name="Grey">#78849E</color>
+    <color name="LightGrey">#E9ECF2</color>
+    <color name="DarkGrey">#454F63</color>
+    <color name="Grey238">#EEEEEE</color>
+
+    <!-- setting menu -->
+    <color name="setting_menu_header">@color/MediumGray</color>
+    <color name="setting_menu_title">@color/Black</color>
+    <color name="setting_menu_background">#E6FFFFFF</color>
+
+    <!-- setting menu -->
+    <color name="file_page_title">@color/Black</color>
+
+    <!-- filter -->
+    <color name="filter_text">@color/MediumGray</color>
+
+    <!-- files / file details -->
+    <color name="files_name">@color/Black</color>
+    <color name="files_details">@color/MediumGray</color>
+    <color name="bg_collect">#66413D3D</color>
+    <color name="files_txt_no_file">@color/MediumGray</color>
+    <color name="files_details_add_location">@color/Blue</color>
+
+    <!-- Autocomplete -->
+    <color name="autocomplete_text">@color/Black</color>
+    <color name="autocomplete_icon_tint">@color/MediumGray</color>
+
+    <!-- Sort -->
+    <color name="sort_text">@color/Black</color>
+
+    <!-- Search -->
+    <color name="search_suggested_header">@color/MediumGray</color>
+
+    <!-- Collects Fragment-->
+    <color name="collect_file_border_underline_textview_2dp">@color/Blue</color>
+
+    <!-- Collect Search Fragment-->
+    <color name="collect_search_hint">@color/MediumGray</color>
+    <color name="collect_search_input_text">@color/Black</color>
+    <color name="collect_search_status_text">@color/Black</color>
+    <color name="collect_search_sub_status_text">@color/MediumGray</color>
+
+    <!-- collects -->
+    <color name="no_media_title_text">@color/Black</color>
+    <color name="no_media_message">@color/MediumGray</color>
+
+    <!-- Collect Details Fragment-->
+    <color name="collects_detail_title_item">@color/Black</color>
+    <color name="collects_detail_detail_item">@color/MediumGray</color>
+    <color name="collect_detail_add_note_hint">#BBC1CE</color>
+
+    <!-- Share Live Link Fragment-->
+    <color name="collect_share_live_link_txt_switch">@color/Black</color>
+    <color name="collect_share_live_link_field_focused">@color/Brand</color>
+    <color name="collect_share_live_link_field">@color/LightGray</color>
+    <color name="collect_share_live_link_user_list">@color/black</color>
+
+    <!-- Edit Details -->
+    <color name="edit_details_text_view">@color/Black</color>
+
+    <!--  Common  -->
+    <color name="lightGray_and_white12">@color/LightGray</color>
+    <color name="black_and_white">@color/Black</color>
+    <color name="blue_and_white">@color/Blue</color>
+
+    <!--  CustomLocation  -->
+    <color name="cardview_shadow">@color/black</color>
+
+    <!--    notification-->
+    <color name="notification_heads_up_text">@color/gray</color>
+    <color name="notification_heads_up_title">@color/DarkGray</color>
+
+
+</resources>
+

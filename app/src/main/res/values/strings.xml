@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Logins</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Upcoming">Upcoming</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ride">Ride</string>
+    <string name="btn_link_to_login">Login</string>
+    <string name="register">Register</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_username">Username</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoicGJpZW4iLCJhIjoiY2xqZjR5eTBoMjFkYTNmdGhlZzZqcGdtMSJ9.HkbRJ4KdyjIbuGTNHEmrTw</string>
+    <string name="msg_token_fmt" formatted="true">Token:
+    </string>
+    <string name="hint_confirm">Confirm Password</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="name">Name</string>
+    <string name="name_register_hint">First (Middle) Last</string>
+    <string name="select_user">Select User</string>
+    <string name= "choose_profile" >Choose you profile image</string>
+</resources>
